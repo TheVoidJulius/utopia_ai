@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Music Player</title>
+    <link rel="stylesheet">href="style.css">
+</head>
+<body>
+    <h1>🎶Mood Music Player</h1>
+    <p id="Subtitle">Let your Face pick your playlist</p>
+    <div id="webcam-container">
+        <video id="webcam"autoplay playsinline></video>
+    </div>
+    <button id="detect-btn">Detect My Mood</button>
+    <p id="loading">⌛️Analyzing Your Mood...</p>
+    <div id="mood-display">Mood:
+        <span id="mood-text">__</span>
+    </div>
+    <div id="player-container"></div>
+    <script src="script.js"></script>
+</body> 
+</html>
